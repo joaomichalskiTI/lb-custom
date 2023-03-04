@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Six+Caps&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 226, 226);
+}
+header{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+
+}
+header img{
+    margin-left: 50px;
+    height: 180px;
+    width: 200px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+    height: 100px;
+    width: 100%;
+    margin-right: 20px;
+
+}
+.btn button{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    margin-top: 65px;
+    border-radius: 10px;
+    margin:20px ;
+    border: none;
+    background: transparent;
+    border: 1.5px solid rgb(100, 4, 189);
+    transition: 0.5s;
+    font-family:'Genos', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.btn button:hover{
+    background: rgb(79, 18, 135);
+    border: 1.5px solid rgb(170, 93, 242);
+    transition: 0.5s;
+    color: white;
+    box-shadow: 0 10px 25px rgb(118, 118, 118);
+
+}
+.btn{
+    margin-right: 170px;
+    display: flex;
+    align-items: center;
+}
+.login{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login i{
+    color:rgb(79, 18, 135);
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.login p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    margin-top: 0;
+    font-family:'Genos', sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: rgb(79, 18, 135);
+    font-weight: bold;    
+    cursor: pointer;
+}
