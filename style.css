@@ -10,7 +10,6 @@ header{
     margin-top: 25px;
     display: flex;
     align-items: center;
-
 }
 header img{
     margin-left: 50px;
@@ -24,7 +23,6 @@ header img{
     height: 100px;
     width: 100%;
     margin-right: 20px;
-
 }
 .btn button{
     cursor: pointer;
@@ -41,7 +39,6 @@ header img{
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
-
 }
 .btn button:hover{
     background: rgb(79, 18, 135);
@@ -49,7 +46,6 @@ header img{
     transition: 0.5s;
     color: white;
     box-shadow: 0 10px 25px rgb(118, 118, 118);
-
 }
 .btn{
     margin-right: 170px;
@@ -67,7 +63,9 @@ header img{
     color:rgb(79, 18, 135);
     font-size: 30px;
     cursor: pointer;
-
+}
+.login i:hover{
+    color:black
 }
 .login p{
     display: flex;
@@ -77,8 +75,82 @@ header img{
     margin-top: 0;
     font-family:'Genos', sans-serif;
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 18px;
     color: rgb(79, 18, 135);
     font-weight: bold;    
+}
+.titulo1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family:'Genos', sans-serif;
+    font-size: 20px;
+}
+.meio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    height: 90px;
+    width: 90px;
+}
+.imagens{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.imagens:hover > :not(:hover){
+    opacity: .4;
+    filter: blur(2px);
+}
+.imagens:hover > :hover {
+    transform: scale(1.5);
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .35s;
     cursor: pointer;
+}
+.items p{
+    font-family:'Genos', sans-serif;
+    font-weight: bold;
+    color:rgb(66, 1, 126);
+    
+}
+.nomes{
+    display: flex;
+    justify-content: center;
+    font-family:'Genos', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+.trabalhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family:'Genos', sans-serif;
+    font-weight: bold;  
+    font-size: 30px;
+}
+.trabalho2{
+    display: flex;
+}
+.trabalho2 p{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    width: 750px;
+}
+.trabalho2 img{
+    height: 450px;
+    width: 480px;
 }
