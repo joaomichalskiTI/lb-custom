@@ -118,6 +118,7 @@ main img{
     transition: .35s;
     cursor: pointer;
 }
+
 .items p{
     font-family:'Genos', sans-serif;
     font-weight: bold;
