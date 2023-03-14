@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img2/site\ lb\ custom\ ABA\ INÍCIO.002.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+@keyframes move-up-down {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-6%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+header img{
+    margin-top: 20px;
+    height: 20%;
+    width: 20%;
+    animation-name: move-up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+.buttons{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    width: 30%;
+    row-gap: 10%;
+}
+button{
+    height: 20%;
+    width: 50%;
+    row-gap: 10%;
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Edo SZ', sans-serif;
+    font-size: 1.3em ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    color: rgb(136, 38, 210);
+    transition: 0.5s;
+}
+@media only screen and (max-width: 1080px) {
+    button{
+        font-size: 1.1em;
+    }
+
+}
+@media only screen and (max-width: 845px) {
+    button{
+        font-size: 0.7em;
+    }
+
+}
+@media only screen and (max-width: 640px) {
+    button{
+        font-size: 0.6em;
+    }
+
+}
+@media only screen and (max-width: 495px) {
+    button{
+        font-size: 0.5em;
+    }
+
+}
+@media only screen and (max-width: 427px) {
+    button{
+        font-size: 0.4em;
+    }
+
+}
+@media only screen and (max-width: 365px) {
+    button{
+        font-size: 0.3em;
+    }
+
+}
+@media only screen and (max-width: 340px) {
+    button{
+        font-size: 5px;
+    }
+
+}
+@media only screen and (max-width: 295px) {
+    button{
+        font-size: 3px;
+    }
+
+}
